@@ -19,6 +19,8 @@ public class FeaturePathReader {
         featurePaths.add("classpath:features/tokens/GenerateSupervisorToken.feature");
         featurePaths.add("classpath:features/accounts/Account.feature");
         featurePaths.add("classpath:features/accounts/GetAccounts.feature");
+        featurePaths.add("classpath:features/accounts/CreateAccount.feature");
+        featurePaths.add("classpath:features/accounts/CreateAccountWithRandomEmail.feature");
         featurePaths.add("classpath:features/plans/PlanCode.feature");
     }
 
