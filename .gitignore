@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore the credentials.json file
+src/test/resources/data/credentials.json.json
