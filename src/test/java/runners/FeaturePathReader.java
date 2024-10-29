@@ -21,7 +21,10 @@ public class FeaturePathReader {
         featurePaths.add("classpath:features/accounts/GetAccounts.feature");
         featurePaths.add("classpath:features/accounts/CreateAccount.feature");
         featurePaths.add("classpath:features/accounts/CreateAccountWithRandomEmail.feature");
+        featurePaths.add("classpath:features/accounts/CreateAndDeleteAccount.feature");
+        featurePaths.add("classpath:features/accounts/DeleteAccount.feature");
         featurePaths.add("classpath:features/plans/PlanCode.feature");
+        featurePaths.add("classpath:features/security/SecurityTest.feature");
     }
 
     // Public getter method to return the features
